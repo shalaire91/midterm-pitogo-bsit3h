@@ -1,0 +1,84 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	color: #ffffff;
+  font-size: 120%;
+}
+
+form{
+  border: 2px solid #ccc;
+  margin-top: 100px !important;
+  width: 450px;
+  padding: 20px;
+  border-radius: 20px 0 20px 0;
+  width: 450px;
+  height: 0 auto;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.8) !important;  
+  font-family: monospace;
+  color: black;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group input {
+  display: block;
+  width: 335px;
+  padding: 14px;
+  border-radius: 6px;
+  border: 0;
+  margin-bottom: 12px;
+  margin-left: 15px;
+  color: #191919;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 35px;
+}
+button {
+  float: right;
+  background: #555;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+button:hover{
+  opacity: .7;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.error {
+  width: 78%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  text-align: left;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+label, .errors{
+    font-size: 14px;
+    font-weight: 300;
+}
